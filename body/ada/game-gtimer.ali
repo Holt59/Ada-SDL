@@ -1,0 +1,59 @@
+V "GNAT Lib v2012"
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U game.gtimer%b		game-gtimer.adb		3a4450a8 NE OO PK
+W game%s		game.adb		game.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.extensions%s  i-cexten.ads	i-cexten.ali
+
+U game.gtimer%s		game-gtimer.ads		97524a8f EE NE OO PK
+W game%s		game.adb		game.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D game.ads		20110621174346 71f2f95f
+D game-gtimer.ads	20110621174346 e6a0b3d0
+D game-gtimer.adb	20110622150302 b347cee0
+D interfac.ads		20120510125814 129923ea
+D i-c.ads		20120510125814 5421119b
+D i-cexten.ads		20120510125814 6fa32d98
+D system.ads		20120510125846 6daf90c4
+D s-exctab.ads		20120510125824 66e51330
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+X 7 game.ads
+19K9*Game 82e9 8|16r9 27r5 9|19r14 43r5
+X 8 game-gtimer.ads
+16K14*Gtimer 7|19k9 8|27l10 27e16 9|19b19 43l10 43t16
+18N4*Max_Time 19r28
+19I9*Time<long_long_integer> 22r29 25r28 9|27r29 29r14 38r27
+22V13*Get_Tick{19I9} 9|27b13 30l8 30t16
+25U14*Wait 25>20 9|38b14 41l8 41t12
+25i20 MS{19I9} 9|38b19 40r25
+X 9 game-gtimer.adb
+25V13 C_Get_Tick{12|170M9} 26b<c,get_tick>20 29s19
+36U14 C_Wait 36>21 37b<c,wait>20 40s6
+36m21 Ms{12|170M9}
+X 10 interfac.ads
+36K9*Interfaces 9|16r6 17r5 10|175e15
+X 11 i-c.ads
+18K20*C 9|16r17 17r16 11|230e17
+X 12 i-cexten.ads
+37K22*Extensions 9|16w19 17r18 12|266e28
+170M9*Unsigned_32 9|25r31 36r29 40r13
+

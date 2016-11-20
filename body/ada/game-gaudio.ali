@@ -1,0 +1,219 @@
+V "GNAT Lib v2012"
+P SS ZX
+R nnnnnnnnnnnnvnnnnnvnnvvnnnvnnnnvnnvnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnn
+
+U game.gaudio%b		game-gaudio.adb		7e81a8cb NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W game%s		game.adb		game.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.concat_6%s	s-conca6.adb		s-conca6.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U game.gaudio%s		game-gaudio.ads		515f3a69 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W game%s		game.adb		game.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D game.ads		20110621174346 71f2f95f
+D game-gaudio.ads	20110621174346 26600eb6
+D game-gaudio.adb	20110622150302 e0dbf327
+D interfac.ads		20120510125814 129923ea
+D i-c.ads		20120510125814 5421119b
+D system.ads		20120510125846 6daf90c4
+D s-conca2.ads		20120510125822 fbd0f2fc
+D s-conca4.ads		20120510125822 025fe3be
+D s-conca6.ads		20120510125822 c7caf514
+D s-exctab.ads		20120510125824 66e51330
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-parame.ads		20120510125832 b6e20cc0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stratt.ads		20120510125834 aedef97e
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 8|17r6 129r23 9|17r6 64r10 87r10 221r10 237r10 259r10 275r10
+X 2 a-except.ads
+53K13*Exceptions 354e19 9|17w10 64r14 87r14 221r14 237r14 259r14 275r14
+93U14*Raise_Exception 9|64s25 87s25 221s25 237s25 259s25 275s25
+X 3 a-finali.ads
+40K13*Finalization 73e21 8|17w10 129r27
+48H9*Controlled 64e72 8|141r25 159r25
+X 7 game.ads
+19K9*Game 82e9 8|19r9 167r5 9|19r14 64r117 87r100 221r111 237r182 259r109
+. 275r136 390r5
+29X4*Audio_Error 9|64r41 87r41 221r41 237r41 259r41 275r41
+56V13*Error{string} 9|64s122 87s105 221s116 237s187 259s114 275s141
+X 8 game-gaudio.ads
+19K14*gAudio 7|19k9 8|167l10 167e16 9|19b19 390l10 390t16
+22R9*Music 43r37 48r36 139r38 141c9 144e17 146r37 147r37 9|32r38 40r37 45r37
+. 58r37 76r36
+23R9*Chunk 89r38 97r37 101r37 157r38 159c9 162e17 164r37 165r37 9|190r38
+. 198r37 203r37 215r38 248r37 263r37
+25N4*Max_Volume 26r28
+26I9*Volume<short_integer> 66r39 124r40 125r56 9|98r38 380r40 385r56
+43U14*Load_Music 43<26 44>26 9|58b14 66l8 66t18
+43r26 Mus{22R9} 9|58b26 61m20 62m7 63r10
+44s26 Name{string} 9|59b26 62r36 64r102
+48U14*Play_Music 48>25 49>25 50>25 9|76b14 89l8 89t18
+48r25 Mus{22R9} 9|76b25 82r33 84r33
+49b25 Loops{boolean} 9|77b25 81r10
+50i25 Nb{positive} 9|78b25 84r45
+53U14*Stop_Music 9|141b14 144l8 144t18
+56U14*Pause_Music 56>26 9|113b14 120l8 120t19
+56b26 P{boolean} 9|113b26 115r10
+59V13*Music_Paused{boolean} 9|155b13 164l8 164t20
+60V13*Music_Playing{boolean} 9|166b13 175l8 175t21
+63U14*Restart_Music 9|129b14 132l8 132t21
+66U14*Set_Music_Volume 66>32 9|98b14 102l8 102t24
+66i32 V{26I9} 9|98b31 101r37
+85N4*Last_Channel 86r31
+86I9*Channel<short_short_integer> 102r37 108r35 112r38 116r37 117r37 125r40
+. 9|264r37 275r106 297r38 319r35 333r36 344r37 385r40
+89U14*Load_Chunk 89<26 90>26 9|215b14 223l8 223t18
+89r26 Ch{23R9} 9|215b26 218m19 219m7 220r10
+90s26 Name{string} 9|216b26 219r35 221r96
+93U14*Allocate_Channel 93>32 9|232b14 239l8 239t24
+93i32 Nb{positive} 9|232b31 235r31 236r21 237r105 237r139
+97U14*Play_Channel 97>27 98>27 99>27 9|248b14 261l8 261t20
+97r27 Ch{23R9} 9|248b27 254r35 256r35
+98i27 Nb{positive} 9|249b27 254r46 256r46
+99i27 Time{natural} 9|250b27 253r10 256r54
+101U14*Play_Channel 101>27 102>27 103>27 104>27 9|263b14 277l8 277t20
+101r27 Ch{23R9} 9|263b27 270r42 272r42
+102i27 Chan{86I9} 9|264b27 270r36 272r36 275r120
+103i27 Nb{positive} 9|265b27 270r53 272r53
+104i27 Time{natural} 9|266b27 269r10 272r61
+107U14*Stop_Channel 9|314b14 317l8 317t20
+108U14*Stop_Channel 108>27 9|319b14 322l8 322t20
+108i27 Ch{86I9} 9|319b27 321r23
+111U14*Pause_Channel 111>28 9|288b14 295l8 295t21
+111b28 P{boolean} 9|288b28 290r10
+112U14*Pause_Channel 112>28 113>28 9|297b14 305l8 305t21
+112i28 Chan{86I9} 9|297b28 301r30 303r31
+113b28 P{boolean} 9|298b28 300r10
+116V13*Channel_Paused{boolean} 116>29 9|333b13 342l8 342t22
+116i29 Ch{86I9} 9|333b28 336r32
+117V13*Channel_Playing{boolean} 117>29 9|344b13 353l8 353t23
+117i29 Ch{86I9} 9|344b29 347r33
+120V13*Nb_Chan_Paused{natural} 9|359b13 364l8 364t22
+121V13*Nb_Chan_Playing{natural} 9|366b13 371l8 371t23
+124U14*Set_Channel_Volume 124>33 9|380b14 383l8 383t26
+124i33 V{26I9} 9|380b33 382r32
+125U14*Set_Channel_Volume 125>33 125>49 9|385b14 388l8 388t26
+125i33 C{86I9} 9|385b33 387r29
+125i49 V{26I9} 9|385b49 387r36
+129K12 AF=129:27 141r22 159r22
+135P9 SDL_Music(11|35I9) 137r30 143r16 9|29r35 54r52 72r37
+137p4 Null_SDL_Music{135P9} 143r29 9|34r19 36r19 42r16 63r20
+139U14 Close_Music 139=27 9|32b14 38l8 38t19 47s7 61s7
+139r27 M{22R9} 9|32b27 34r10 35r24 36m10
+143p10*Mus{135P9} 9|34r12 35r26 36m12 42m9 62m11 63r14 82r37 84r37
+146U14 Initialize<3|51p14> 146=26 9|40b14 43l8 43t18
+146r26 M{22R9} 9|40b26 42m7
+147U14 Finalize<3|53p14> 147=26 9|45b14 48l8 48t16
+147r26 M{22R9} 9|45b26 47m19
+153P9 SDL_Chunk(11|35I9) 155r30 161r16 9|186r35 212r52 245r51
+155p4 Null_SDL_Chunk{153P9} 161r29 9|192r19 194r19 200r16 220r19
+157U14 Close_Chunk 157=27 9|190b14 196l8 196t19 205s7 218s7
+157r27 C{23R9} 9|190b27 192r10 193r24 194m10
+161p10*Chu{153P9} 9|192r12 193r26 194m12 200m9 219m10 220r13 254r38 256r38
+. 270r45 272r45
+164U14 Initialize<3|51p14> 164=26 9|198b14 201l8 201t18
+164r26 C{23R9} 9|198b26 200m7
+165U14 Finalize<3|53p14> 165=26 9|203b14 206l8 206t16
+165r26 C{23R9} 9|203b26 205m19
+X 9 game-gaudio.adb
+29U14 C_Close_Music 29>28 30b<c,close_music>20 35s10
+29p28 M{8|135P9}
+54V13 C_Load_Music{8|135P9} 54>26 55b<c,load_music>20 62s18
+54a26 S{11|79A9}
+72V13 C_Play_Music{11|35I9} 72>26 73>26 74b<c,play_music>20 82s20 84s20
+72p26 M{8|135P9}
+73i26 Loops{11|35I9}
+79i7 Result{11|35I9} 82m10 84m10 86r10
+95V13 C_Set_Music_Volume{11|35I9} 95>32 96b<c,set_music_volume>20 101s14
+95i32 V{11|35I9}
+99i7 Tmp{11|35I9} 101m7
+108U14 C_Pause_Music 109b<c,pause_music>20 116s10
+110U14 C_Resume_Music 111b<c,resume_music>20 118s10
+126U14 C_Restart_Music 127b<c,restart_music>20 131s7
+138U14 C_Stop_Music 139b<c,stop_music>20 143s7
+150V13 C_Music_Paused{11|35I9} 151b<c,music_paused>20 158s14
+152V13 C_Music_Playing{11|35I9} 153b<c,music_playing>20 169s14
+156i7 Tmp{11|35I9} 158m7 159r10
+167i7 Tmp{11|35I9} 169m7 170r10
+186U14 C_Close_Chunk 186>28 187b<c,close_chunk>20 193s10
+186p28 S{8|153P9}
+212V13 C_Load_Chunk{8|153P9} 212>26 213b<c,load_chunk>20 219s17
+212a26 S{11|79A9}
+229V13 C_Alloc_Chan{11|35I9} 229>26 230b<c,alloc_chan>20 235s14
+229i26 Nb{11|35I9}
+233i7 Tmp{11|35I9} 235m7 236r10 237r151
+245V13 C_Play_Channel{11|35I9} 245>28 245>43 245>62 245>75 246b<c,play_chan>20
+. 254s17 256s17 270s17 272s17
+245i28 Chan{11|35I9}
+245p43 Ch{8|153P9}
+245i62 Nb{11|35I9}
+245i75 Time{11|35I9}
+251i7 Tmp{11|35I9} 254m10 256m10 258r10
+267i7 Tmp{11|35I9} 270m10 272m10 274r10
+283U14 C_Pause_Channel 283>30 284b<c,pause_chan>20 291s10 301s10
+283i30 C{11|35I9}
+285U14 C_Resume_Channel 285>31 286b<c,resume_chan>20 293s10 303s10
+285i31 C{11|35I9}
+311U14 C_Stop_Chan 311>26 312b<c,stop_chan>20 316s7 321s7
+311i26 Ch{11|35I9}
+328V13 C_Chan_Paused{11|35I9} 328>27 329b<c,chan_paused>20 336s14 362s14
+328i27 Ch{11|35I9}
+330V13 C_Chan_Playing{11|35I9} 330>28 331b<c,chan_playing>20 347s14 369s14
+330i28 Ch{11|35I9}
+334i7 Tmp{11|35I9} 336m7 337r10
+345i7 Tmp{11|35I9} 347m7 348r10
+360i7 Res{11|35I9} 362m7 363r22
+367i7 Res{11|35I9} 369m7 370r22
+377U14 C_Set_Chan_Volume 377>32 377>44 378b<c,set_chan_volume>20 382s7 387s7
+377i32 C{11|35I9}
+377i44 V{11|35I9}
+X 10 interfac.ads
+36K9*Interfaces 8|16r6 135r33 153r33 9|16r6 16r27 10|175e15
+X 11 i-c.ads
+18K20*C 8|16w17 135r44 153r44 9|16w17 16r38 11|230e17
+35I9*int<integer> 8|135r46 153r46 9|73r37 73r49 79r16 84r41 95r39 95r51 99r13
+. 101r33 150r35 152r36 156r13 167r13 229r34 229r46 233r13 235r27 236r17 245r38
+. 245r70 245r85 245r97 251r13 254r42 256r42 256r50 267r13 270r32 270r49 272r32
+. 272r49 272r57 283r37 285r38 301r26 303r27 311r34 321r19 328r35 328r47 330r36
+. 330r48 334r13 336r28 345r13 347r29 360r13 367r13 377r39 377r51 382r28 387r25
+. 387r32
+72E9*char<character>
+79A9*char_array(72E9)<60M9> 9|54r33 212r33
+84V13*To_C{79A9} 9|62s31 219s30
+
